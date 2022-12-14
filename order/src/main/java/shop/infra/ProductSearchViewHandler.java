@@ -48,7 +48,7 @@ public class ProductSearchViewHandler {
             if( productSearchOptional.isPresent()) {
                  ProductSearch productSearch = productSearchOptional.get();
             // view 객체에 이벤트의 eventDirectValue 를 set 함
-                productSearch.setDeliveryStatus("배송출발함"");    
+                productSearch.setDeliveryStatus("배송출발함");    
                 // view 레파지 토리에 save
                  productSearchRepository.save(productSearch);
                 }

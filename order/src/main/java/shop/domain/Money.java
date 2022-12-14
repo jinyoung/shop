@@ -9,20 +9,15 @@ import java.util.Date;
 
 @Embeddable
 @Data
-@AllArgsConstructor
-@NoArgsConstructor
+//TODO:
+//@AllArgsConstructor
+//@NoArgsConstructor
 public class Money {
 
-    
-    
-    
     private Double amount;
-    
-    
-    @OneToOne
+  //TODO:  
+//    @OneToOne
     private Enum currency;
-
-
 
 }
 

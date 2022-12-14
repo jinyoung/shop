@@ -9,8 +9,6 @@ import java.util.Date;
 
 @Embeddable
 @Data
-@AllArgsConstructor
-@NoArgsConstructor
 public class Payment {
 
     
